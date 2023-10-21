@@ -1,0 +1,149 @@
+.body{
+    padding:0px;
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+#head{
+    display:flex;
+    justify-content: space-around;
+    background-color: #000000CC;
+    padding-left: 150px;
+    padding-right:180px;
+}
+#head>a{
+    padding-top:10px;
+    color:white;
+}
+
+
+.section{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.section>div{
+    font-size:15px;
+    font-weight: 20px;
+    line-height:5px;
+}
+
+
+#lineargradient{
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size:48px;
+}
+
+.section1{
+    background-color: white;
+}
+.section2{
+   background-color: black;
+}
+.text-gradient{
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size:48px;
+    font-weight: 700px;
+}
+.iphone14{
+    padding-top: 60px;
+    text-align: center;
+}
+.iphone14pro{
+    padding-top:60px;
+    text-align:center;
+}
+.iphone14pro>img{
+    width: 782px;
+    height: 542px;
+    top: 255.5px;
+    left: 99px;
+    
+}
+
+.section3{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.gradient{
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size:48px;
+    font-weight:700px;
+}
+
+.iphonese{
+    text-align: left;
+    padding-top:250px;
+}
+.iphonese>img{
+    padding-left: 180px;
+}
+.btn{
+    padding-left:100px;
+}
+.img{
+    width: 494px;
+    height: 830px;
+    padding-top: 10px;
+    padding-right: 50px;    
+}
+
+
+.section4{
+    background-image: url("./images/Background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 814px;
+}
+.iphonenew{
+    text-align: left;
+    padding-top:300px;
+    padding-left:70px;
+}
+.iphonenew>h1{
+    color:white;
+    font-size:50px;
+    font-weight:700px;
+    line-height:40px;
+}
+
+.section5{
+    margin-top:100px;
+}
+
+.iphonetypes1{
+    position: absolute;
+    left: 100px;
+}
+.iphonetypes2{
+    position: absolute; 
+    left: 480px;
+}
+.iphonetypes3{
+    position: absolute; 
+    left: 880px;
+}
+.iphonetypes4{
+    position: absolute; 
+    left: 1280px;
+}
+.iphonetypes1-temp1{
+    position: absolute; 
+    top: 1000px;
+}
